@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * cap_string - capitalizes all words in a string
  * @s: string
@@ -20,7 +19,7 @@ else
 for (j = 0; j <= 12; j++)
 {
 if (a[j] == *(s + i - 1))
-a' - 'A';
+*(s + i) -= 'a' - 'A';
 }
 }
 }
